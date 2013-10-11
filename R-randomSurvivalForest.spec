@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          3.6.3
-Release:          2
+Version:          3.6.4
+Release:          1
 Summary:          Random Survival Forests
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/randomSurvivalForest_3.6.4.tar.gz
 Requires:         R-XML 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-XML 
@@ -32,7 +32,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 
 %files
 %dir %{rlibdir}/%{packname}
-%doc %{rlibdir}/%{packname}/doc
+# %doc %{rlibdir}/%{packname}/doc
 %doc %{rlibdir}/%{packname}/html
 %doc %{rlibdir}/%{packname}/CITATION
 %doc %{rlibdir}/%{packname}/DESCRIPTION
@@ -51,4 +51,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 777813
 - Import R-randomSurvivalForest
 - Import R-randomSurvivalForest
+
 
