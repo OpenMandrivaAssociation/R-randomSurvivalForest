@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          3.6.4
-Release:          1
+Release:          2
 Summary:          Random Survival Forests
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
